@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="Permit" syncable="YES">
+        <attribute name="builder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contact_cell_phone_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contact_phone_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lock_status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="permit_close_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="permit_jurisdiction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="permit_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="permit_open_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="permit_status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="site_address" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Permit" positionX="-63" positionY="-18" width="128" height="210"/>
+    </elements>
+</model>
